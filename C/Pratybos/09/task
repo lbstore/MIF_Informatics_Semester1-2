@@ -1,0 +1,12 @@
+sukurti moduli su funkcijomis 
+add(int,int) //a+b
+sub(int,int) //a-b
+
+skaiciuotu kiek kartu buvo iskviesta funcija
+
+antras modulis visiskai atsikiras
+jo viduj yra f-ija execute(1,2,add) susiprastu kad reikia sudeti
+ir perbuildint bibliotekas
+siunciam 2h failai, 3c ir 2 bibliotekos
+
+turetu uztekti modulio kodo, kad veiktu.

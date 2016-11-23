@@ -1,0 +1,6 @@
+ Pritaikytas dinaminis masyvas steck'o viduje.
+ Nėra MAX_DATA macro.
+ Funkcija SteckInfo leidžia pažiūrėti Steck'o informaciją.
+ Pop funcija su dinaminiu masyvu.
+ Makefile.
+ Steck'as turi kintamaji kuris tikrina inicializavima.

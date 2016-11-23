@@ -1,0 +1,9 @@
+Target OS: Win32 for i386
+Compiling c:\programming\pascal\task 3\final version\uzduotis3final.pas
+uzduotis3final.pas(122,32) Warning: Variable USERIN does not seem to be initialized
+uzduotis3final.pas(232,57) Warning: Variable C2 does not seem to be initialized
+uzduotis3final.pas(13,60) Note: Local variable J is assigned but never used
+uzduotis3final.pas(13,73) Note: Local variable PASIRINKIMAS not used
+uzduotis3final.pas(16,21) Note: Local variable USERINPUT not used
+Linking c:\programming\pascal\task 3\final version\Uzduotis3Final.exe
+332 Lines compiled, 0.2 sec

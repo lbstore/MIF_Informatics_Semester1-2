@@ -1,0 +1,44 @@
+program Noname10;
+
+uses myunit01;
+type masyvas = array[1..100] of integer;
+
+var A:masyvas;
+    i,kiekis1,temp:integer;
+    
+
+procedure selectionSort(var Q:masyvas;kiekis:integer);
+var a1,a2,k,min:integer;
+begin
+    for a1:=1 to kiekis do begin
+    min:=Q[a1];
+    temp:=a1;
+        for a2:=a1+1 to kiekis do begin
+            if min>Q[a2] then begin
+                                min:=Q[a2];
+                                temp:=a2;
+                                end;
+            end;
+        swapInt(Q[a1],Q[temp]);
+        end;
+
+
+end;
+
+begin
+    writeln('kiek reiksmiu');
+  readln(kiekis1);
+  for i:=1 to kiekis1 do begin
+  readln(A[i]);
+  end;
+  for i:=1 to kiekis1 do begin
+  write(A[i],' ');
+  end;
+  writeln;
+  selectionSort(A,kiekis1);
+  for i:=1 to kiekis1 do begin
+  write(A[i],' ');
+  end;
+  writeln;
+  Readln;
+end.

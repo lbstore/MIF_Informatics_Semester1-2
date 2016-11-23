@@ -1,0 +1,25 @@
+fopen;
+fclose;
+fgetc;
+fputc;
+
+programa skaito predetermened faila, nukopijuoja visa faila i rezultato faila.
+
+\\
+
+const char *symbol = "!?....
+const char *abc = "abc..xyzABC..XYZ01.."
+failo viduj bus zodziai atskiti skirtukais
+pvz:
+abc!!?+1cc_-=c??bc8z+r8
+Rezultatas:
+abc
+1cc
+c
+bc8z
+r8
+
+comandines eilutes parametrai
+0 -> stdout
+1 file -> stdout
+2 fileIn -> fileOut

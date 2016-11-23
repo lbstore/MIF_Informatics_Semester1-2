@@ -1,0 +1,5 @@
+Target OS: Win32 for i386
+Compiling c:\programming\pascal\task 2\uzduotis2.pas
+uzduotis2.pas(110,13) Warning: Variable C1 does not seem to be initialized
+Linking c:\programming\pascal\task 2\uzduotis2.exe
+152 Lines compiled, 0.4 sec

@@ -1,0 +1,7 @@
+ 
+scan for <title> -contet <title/>
+
+nodes:
+
+scan for <h2 class="skip"><a title="-Content" skip</a></h2>
+scan for <p> -conten </p> until end of document

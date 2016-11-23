@@ -1,0 +1,152 @@
+program Core;
+
+    
+    type WordStruct = record
+            startingLetter:char;
+            inWord:string;
+            end;
+            
+            
+    var d,rez:text;
+    word:array[1..1000] of WordStruct;
+    inFileName,outFileName:string;
+    i,j,words,value,numberOfWowels:integer;
+    c1,c2,desiredLetter:char;
+    
+    
+/////////////////////////////
+
+function letter( x:char):boolean;
+
+var t:boolean;
+
+begin
+    t:=false;
+    value:=Ord(x);
+    if ((value>64) AND (value<91)) OR ((value>96) AND (value<123)) then
+    t:=true;
+
+    letter:=t;
+end;
+
+//---------------------
+
+function findWowels(anyWord:string):integer;
+
+var a,amount:integer;
+
+begin
+amount:=0;
+ for a:=1 to length(anyWord) do begin
+  case anyWord[a] of
+  'a' :   begin
+            amount:=amount+1;
+            end;
+  'e' :   begin
+            amount:=amount+1;
+            end;
+  'i' :   begin
+            amount:=amount+1;
+            end;
+  'y' :   begin
+            amount:=amount+1;
+            end;
+  'o' :   begin
+            amount:=amount+1;
+            end;
+  'u' :   begin
+            amount:=amount+1;
+            end;
+  end;
+end;
+ 
+findWowels:=amount;
+
+end;
+
+//-------------------------
+
+
+
+
+////////////////////////////
+
+BEGIN
+  repeat
+    write('Irasykte pradiniu duomenu failo varda: ');
+    readln(inFileName);
+    assign(d,inFileName);
+    {$I-} //klaidu tikrinimas IO's direktorijoje off
+    reset(d);
+    {$I+} //klaidu tikrinimas on
+    if ((IOresult <> 0) OR (length(inFilename)<1)) then begin
+
+        Writeln('Nera nurodyto failo, bandykite dar karta ');
+
+        end;
+  
+   until (IOResult = 0) AND (length(inFileName)>1);
+
+  repeat
+    write('Irasykite rezultatu failo varda: ');
+    readln(outFileName);
+    if length(outFileName)<5 then Writeln('Bandykite dar karta ');
+  until (length(outFileName)>4);
+  
+  assign(rez,outFileName);
+  rewrite(rez);
+
+  write('Irasykite raide, kuria prasidedancius zodzius jus norite isvesti: ');
+  readln(desiredLetter);
+  write('Irasykite skaiciu balsiu, kuris turi buti zodziuose prasidedanciuose raide ',desiredLetter,' :');
+  readln(numberOfWowels);
+  desiredLetter:=LowerCase(desiredLetter);
+
+  i:=1;
+  repeat
+
+        repeat
+        
+            c2:=c1;  // char1(naujas) char2(pries tai buves)
+            read(d,c1);
+            
+            if EOln(d) then readln(d);
+
+            if (NOT letter(c1)) AND (letter(c2)) then i:=i+1;
+        
+            if EOF(d) then break;
+            
+        until letter(c1);
+        
+        if letter(c1) then begin
+        
+            word[i].inWord:=word[i].inWord+c1;
+            
+            end;
+            
+  until EOF(d)=true;
+  
+  close(d);
+  words:=i-1;
+  
+  for j:=1 to words do begin
+  
+    word[j].startingLetter:=LowerCase(word[j].inWord[1]);
+    if (word[j].startingLetter = desiredLetter) AND (findWowels(word[j].inWord) = numberOfWowels) then  writeln(rez,word[j].inWord);
+
+  end;
+
+ {
+ //debugging porposes
+  for j:=1 to words do begin
+    writeln(word[j].inWord);
+  end;
+  }
+
+  close(rez);
+  writeln;
+  writeln('PROGRAMOS PABAIGA');
+  writeln;
+  writeln('"ENTER" isejimui' );
+  Readln;
+END.

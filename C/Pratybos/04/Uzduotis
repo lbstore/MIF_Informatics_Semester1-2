@@ -1,0 +1,10 @@
+ 
+ask for a number
+IF (1) not a singe number;
+not 3 digits
+not positive
+
+geras skaicius skaimenys nesikartoja.
+
+Output 
+yes/no.

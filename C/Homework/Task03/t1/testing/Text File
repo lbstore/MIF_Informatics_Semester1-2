@@ -1,0 +1,15 @@
+void delete(struct bst_node** node) {
+    struct bst_node* old_node = *node;
+    if ((*node)->left == NULL) {
+        *node = (*node)->right;
+        free_node(old_node);
+    } else if ((*node)->right == NULL) {
+        *node = (*node)->left;
+        free_node(old_node);
+    } else {
+        struct bst_node** pred = &(*node)->left;
+        while ((*pred)->right != NULL) {
+			pred = &(*pred)->right;
+		}
+	}
+} 

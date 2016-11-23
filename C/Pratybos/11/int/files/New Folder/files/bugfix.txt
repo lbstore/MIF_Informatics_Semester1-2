@@ -1,0 +1,6 @@
+funkcijoje pop return'as ne pabaigoje.
+---------
+funkcijoje pop pakeistas gražinamas elementas.
+sukurtas Guard mod.h.
+makefile švarus.
+

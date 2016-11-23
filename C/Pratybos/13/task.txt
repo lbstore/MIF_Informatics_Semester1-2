@@ -1,0 +1,49 @@
+Bendra informacija:
+
+1. Visas programos kodas pateikiamas viename kodo faile.
+2. Programa darbo pradžioje turi atspausdinti pranešimą, kuris prašo vartotojo įvesti duomenų failo vardą. Nuskaičiusi įvestą vardą, programa turi bandyti atidaryti nurodytą duomenų failą skaitymui (jis gali/turi būti einamajame kataloge). Jei jo nėra, programa turi atspausdinti informatyvų pranešimą ir baigti darbą.
+3. Kiekviena iš žemiau nurodytų (sunumeruotų) užduočių atliekama nepriklausomai. Užduotis rekomenduotina, tačiau nebūtina daryti eilės tvarka.
+4. Pateikiant atsakymus/rezultatus, vieną užduotį (vieną numerį) atitinka lygiai viena eilutė. Ji turi prasidėti užduoties numeriu ir turėti nurodytą tekstą (žr. vartotojo sąsajos pavyzdį žemiau; jame keistis gali tik skaičiai). Kitų spausdinimų galutinėje (pateikiamoje) programoje būti negali. Jei kažkurios iš užduočių nedarėte, atitinkama eilutė nespausdinama.
+5. Testavimui rekomenduotina naudotis pavyzdiniais duomenų failais file1.bin ir file2.bin. 
+
+
+
+Vartotojo sąsajos pavyzdys nr.1:
+
+Enter file name: file1.bin
+Results:
+1) uppercase = 1003
+2) zero = 167
+3) four digits = 667
+4) min = 1.10  max = 608702592.00  avg = 6577402.85
+5) even = 1007
+6) minlen = 1  maxlen = 75
+
+
+
+Vartotojo sąsajos pavyzdys nr.2:
+
+Enter file name: file2.bin
+Results:
+1) uppercase = 1026
+2) zero = 156
+3) four digits = 712
+4) min = 1.17  max = 629838848.00  avg = 5666667.85
+5) even = 1015
+6) minlen = 1  maxlen = 129
+
+
+
+Užduotys:
+
+1. Laikykite, kad binarinis duomenų failas yra sudarytas iš pavienių (1 baito) simbolių. Parašykite kodą, kuris suskaičiuoja, kiek tame faile yra didžiųjų raidžių.
+
+2. Laikykite, kad binarinis duomenų failas yra sudarytas iš sveikųjų 4 baito dydžio skaičių. Parašykite kodą, kuris suskaičiuoja, kiek iš tų skaičių yra lygūs nuliui.
+
+3. Laikykite, kad binarinis duomenų failas yra sudarytas iš sveikųjų 2 baitų dydžio skaičių. Parašykite kodą, kuris suskaičiuoja, kiek iš tų (teigiamų ir neigiamų) skaičių turi lygiai keturis skaitmenis.
+
+4. Laikykite, kad binarinis duomenų failas yra sudarytas iš realiųjų 4 baitų dydžio (float formato) skaičių. Nagrinėdami tik skaičius, griežtai didesnius už 1 (kitus atmeskite), tarp šių skaičių raskite minimalią ir maksimalią reikšmes, o taip pat apskaičiuokite šių skaičių vidurkį. Minimumo/maksimumo paieškai pasinaudokite <float.h> bibliotekoje apibrėžtomis konstantomis (makrosais). Atsakymus pateikite 2 skaičių po kablelio tikslumu.
+
+5. Laikykite, kad binarinis duomenų failas yra sudarytas iš sveikųjų 3 baitų dydžio skaičių. Parašykite kodą, kuris suskaičiuoja, kiek iš nelygių nuliui skaičių yra lyginiai.
+
+6. Laikykite, kad duomenų failas yra sudarytas iš tekstinių eilučių, tarpusavyje atskirtų (vienu arba keliais) baitais, turinčiais reikšmę 0. Parašykite kodą, kuris rastų ilgiausios ir trumpiausos (netuščios) eilutės ilgius. 

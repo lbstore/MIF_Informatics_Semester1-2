@@ -1,0 +1,30 @@
+program uzduotis3;
+var error,pasirinkimas:integer;
+UserInput:string;
+
+BEGIN
+    repeat
+    WriteLn('Pasirinkite programos versija (1,2)');
+    readln(UserInput);
+    Val (UserInput, pasirinkimas, error);
+    if NOT((error=0) AND ((pasirinkimas = 1)OR(pasirinkimas = 2))) then
+        writeln('Blogas formatas, bandykite dar karta');
+    
+    until (error=0) AND ((pasirinkimas = 1)OR(pasirinkimas = 2));
+
+  Writeln('Kokiu budu ivesite duomenis?');
+  WriteLn('1 - klaviaratura , 2 - is tekstinio failo');
+    repeat
+    readln(UserInput);
+        Val (UserInput, pasirinkimas, error);
+        if NOT((error=0) AND ((pasirinkimas = 1)OR(pasirinkimas = 2))) then
+            writeln('Blogas formatas, bandykite dar karta');
+
+    until (error=0) AND ((pasirinkimas = 1)OR(pasirinkimas = 2));
+
+
+
+
+
+    readln;
+END.

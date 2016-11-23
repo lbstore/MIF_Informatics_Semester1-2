@@ -1,0 +1,5 @@
+Target OS: Win32 for i386
+Compiling c:\programming\pascal\rusiavimas\myunit01.pas
+myunit01.pas(49,11) Note: Local variable K not used
+myunit01.pas(68,11) Note: Local variable K not used
+190 Lines compiled, 0.0 sec

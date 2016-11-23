@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1431507661 source:/home/lemmin/Documents/Programming/C/test/smt/smth/main.c
+	<stdlib.h>
+	<stdio.h>
+	"BinaryTreeMod.h"
+
+1431463341 /home/lemmin/Documents/Programming/C/test/smt/smth/BinaryTreeMod.h
+

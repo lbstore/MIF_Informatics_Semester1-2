@@ -1,0 +1,2 @@
+funkcijoje pop return'as ne pabaigoje.
+

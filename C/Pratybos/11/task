@@ -1,0 +1,25 @@
+Pasirinkite vieną iš duomenų struktūros variantų: dirbančią su skaičiais
+arba (papildomi balai) dirbančią su netipizuotomis rodyklėmis.
+
+1. Sukurkite atskirą failą test.c, kurio viduje esančioje 
+main funkcijoje sukurkite modulyje įgyvendintą duomenų struktūrą, 
+pridėkite į ją tris elementus - skaičius 15, 4 ir 18, ir 
+atspausdinkite duomenų struktūros turinį į ekraną.
+
+2. Ištaisykite klaidas/trūkumus modulyje. Visus atliktus (net ir smulkius) 
+pataisymus nurodykite faile bugfixes.txt.
+
+3. Pakeiskite modulyje naudojamą statinį masyvą dinaminiu, pridėkite 
+funkcijas, leidžiančias sužinoti struktūroje esančių elementų kiekį bei 
+reikšmę. Visus pakeitimus nurodykite faile changelog.txt.
+
+4. Parašykite failą makefile.txt, skirtą modulio kodo (.o) bei vykdomojo 
+failo (.exe) kūrimui.
+
+5. Atsiskaitymui pateikite visus modulio, visus aukščiau nurodytus failus 
+bei sukurtą .o formato failą. Vykdomojo failo (.exe) pateikti nereikia.
+
+Atsiskaitymo pabaigoje atsiųskite visus reikiamus failus (mod.h, mod.c,
+mod.o, test.c, bugfixes.txt, changelog.txt, makefile.txt).
+
+Laišką pavadinkite "INFO?_Vardas_Pavarde_D3" 

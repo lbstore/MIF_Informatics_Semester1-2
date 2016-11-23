@@ -1,0 +1,10 @@
+Princas      R 89  29.99  false
+Karaliskas   B 69  39.99  true
+Karuna       B 75  99.05  false
+Schogetten   R 57  50.45  true
+Fazer        J 120 30.99  true
+Guylian      G 78  120.99 false
+Laima        R 85  85.99  true
+Alpen Gold   B 91  79.99  false
+Milka        R 45  81.99  true
+Kalev        J 107 4.99   false

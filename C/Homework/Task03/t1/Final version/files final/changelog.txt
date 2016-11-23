@@ -1,0 +1,23 @@
+BSTmodule change log 
+Binary Search Tree module change log 
+
+v0 
+    Not Generic Binary Tree 
+    insert, print, delete functions
+    Working
+v1 
+    Generic Binary Tree
+    added Makefile
+    Not Working
+v2 
+    Hard reset
+    Generic Binary Tree
+    Insert,delete functions
+    Working
+v3
+    Added changelog
+    Improved documentation
+    Added Testing functions with preprocessor commands
+    Added search function
+    
+---------------------------------------------------------------    

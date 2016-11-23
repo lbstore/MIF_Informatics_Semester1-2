@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1425473496 source:/home/laimonas/Documents/C programming/Pratybos/04/Core/main.c
+	<stdio.h>
+	<stdlib.h>
+

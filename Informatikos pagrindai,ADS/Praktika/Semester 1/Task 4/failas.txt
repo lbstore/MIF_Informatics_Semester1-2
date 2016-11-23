@@ -1,0 +1,8 @@
+Your text goes here. Everything can be with a correct syntax;Or,Not. Some random symbols: /.,,',.,'. See, it works.
+Another line just to be sure it works.
+Yet another line.
+
+Numbers 457 484 ,mike4854. 
+
+Skipped few lines.
+For best testing porposes enter: S and 2 for wowels.

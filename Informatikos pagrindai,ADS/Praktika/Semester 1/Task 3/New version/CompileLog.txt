@@ -1,0 +1,6 @@
+Target OS: Win32 for i386
+Compiling c:\programming\pascal\task 3\new version\uzduotis3version2.pas
+uzduotis3version2.pas(245,44) Warning: Local variable C2 does not seem to be initialized
+uzduotis3version2.pas(335,4) Warning: Variable CHOICE1 does not seem to be initialized
+Linking c:\programming\pascal\task 3\new version\Uzduotis3version2.exe
+345 Lines compiled, 0.1 sec

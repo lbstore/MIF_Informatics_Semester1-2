@@ -1,0 +1,5 @@
+program Noname0;
+begin
+  WriteLn('Hi!');
+  Readln;
+end.
